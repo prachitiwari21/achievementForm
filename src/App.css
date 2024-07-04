@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body{
+  
+  background-color: white;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+h2{
+  text-align: left;
+  margin: 5vh 3vh;
+  color: #1d3f63;
+}
+img{
+  width: 90%;
+}
+input,select{
+  padding: 1vh;
+  background-color: #EBF4F6;
+  color:#011044;
+  border: none;
+}
+input:focus,select:focus,textArea:focus{
+  outline: none;
+}
+
+.add{
+  background: url('../public/starry2.jpg');
+  background-size: cover;
   color: white;
+  font-size: large;
+  font-weight: 500;
+  margin: 0;
+  padding:10% 20%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 13, 36, 0.47);
+}
+.flex-box{
+  display: flex;
+  flex-direction:row;
+  justify-content:left;
+}
+.box{
+  margin: 3vh;
+}
+b{
+  color: #ffc765;
+  font-size: larger;
+  font-weight: 5000;
+}
+.text{
+  background-color: #1d3f63;
+  margin: 4vh 5vh;
+  color: white;
+  border: 2px solid #1d3f63;
+  padding: 2vh;
 }
 
-.App-link {
-  color: #61dafb;
+textarea{
+  width: 100%;
+  background-color:#EBF4F6;
+}
+.add-description{
+  text-align: left;
+}
+button{
+  width: 100%;
+  padding: 1vh;
+  border: none;
+  border-radius: 5px;
+  font-size: large;
+  background-color: #ffc765;
+  color: #011044;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #1d3f63;
+  color: white;
+  border: 2px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input[type="file"]::file-selector-button{
+  background-color: #EBF4F6;
+  color: #1d3f63;
+  border: 2px solid #1d3f63;
+  cursor: pointer;
+}
+@media only screen and (max-width:800px) {
+  .container{
+    display:block;
   }
-  to {
-    transform: rotate(360deg);
+  .flex-box{
+    display: block;
   }
+  img{
+    justify-content: center;
+  }
+  
 }
