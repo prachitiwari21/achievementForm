@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/achievementForm/static/css/main.2266bb7a.css",
+    "main.js": "/achievementForm/static/js/main.665cec0a.js",
+    "static/js/453.691d46c2.chunk.js": "/achievementForm/static/js/453.691d46c2.chunk.js",
+    "static/media/starry2.jpg": "/achievementForm/static/media/starry2.dfe8f0fc8cf8460d32cb.jpg",
+    "static/media/trophy2.png": "/achievementForm/static/media/trophy2.336a9e4de447339a89c3.png",
+    "static/media/trophy.jpg": "/achievementForm/static/media/trophy.0e1d8b3c8ffc09c9bc90.jpg",
+    "index.html": "/achievementForm/index.html",
+    "main.2266bb7a.css.map": "/achievementForm/static/css/main.2266bb7a.css.map",
+    "main.665cec0a.js.map": "/achievementForm/static/js/main.665cec0a.js.map",
+    "453.691d46c2.chunk.js.map": "/achievementForm/static/js/453.691d46c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2266bb7a.css",
+    "static/js/main.665cec0a.js"
+  ]
+}
